@@ -67,3 +67,8 @@ body {
     display: block;
     color: #B3B3B3;
 }
+
+.submenu li {
+    color: #FFF;
+    background-color: #5EAFDF;
+}
