@@ -68,7 +68,7 @@ body {
     color: #B3B3B3;
 }
 
-.submenu li {
+.submenu li:hover {
     color: #FFF;
     background-color: #5EAFDF;
 }
