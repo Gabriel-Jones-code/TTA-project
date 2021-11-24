@@ -71,6 +71,14 @@ Photo Overlay Transitions
 .photo-overlay {
     width: 100%;
     height: 100%;
-    color: #FFF;
-    
+    color: #FFF;    
+}
+
+.photo-overlay:hover {
+    transition: transform .5s;
+    transform-origin: 50% 50%;
+}
+
+.photo:hover {
+    transform: scale(1.1);
 }
