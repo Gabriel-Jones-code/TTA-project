@@ -263,6 +263,18 @@ main {
     box-shadow: 0 0 10px rgba(100,65,0,.8);
 }
 
+.formSpacer {
+    padding: 30px 39px;
+}
+
 .terms {
+    margin: 30px 1px 0 0; 
     margin-top: 13%;
+    padding-left: 52px;
+    font-size: 14px;
+    line-height: 5px;
+    color: #000;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
 }
