@@ -129,7 +129,7 @@ main {
 
 .menuContainer {
     max-height: 340px;
-    margin: |0% auto;
+    margin: 0% auto;
     content: "";
     width: 100%;
     position: fixed;
