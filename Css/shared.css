@@ -20,3 +20,138 @@ body {
     background-color: #FFF;
 }
 
+footer, 
+nav {
+    display: block;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #E91C1C;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+h1::after {     /* underline */
+    display: block;
+    content: "";
+    height: 2px;
+    width: 150px;
+    background: #E91C1C;
+}
+
+h2 {
+    line-height: 50px;
+    color: #E91C1C;
+}
+
+h3 {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    padding-top: 25px;
+    line-height: 40px;
+    padding-bottom: 0px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.headingPadding {
+    padding-bottom: 40px;
+}
+
+main {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.navBar {
+    height: 105px;
+    max-height: 340px;
+    display: block;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.containerFluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.clearfix::after
+.container::after
+.navBar::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;         /*keeps position on the page, not the container*/
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menuContainer {
+    max-height: 340px;
+    margin: |0% auto;
+    content: "";
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+/*===============================================================================
+
+    HOME SECTION
+
+===============================================================================*/
+
+#home {
+    background: url(../Images/planets.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px;
+    padding-bottom: 500px;
+    color: #FFF
+}
