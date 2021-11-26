@@ -31,3 +31,8 @@ Menu
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
 }
+
+.menu li:hover {
+    color: #F00;
+    background-color: rgba(100, 65, 0, .3);
+}
