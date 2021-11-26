@@ -86,3 +86,15 @@ Gallery
     color: #C9BDAA;
     margin-top: 5%;
 }
+/*===============================================================================
+
+photo overlay transitions
+
+===============================================================================*/
+
+.photoOverlay {
+    opacity: 0;
+    transition: opacity .5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
