@@ -98,3 +98,11 @@ photo overlay transitions
     border-radius: 10px;
     cursor: pointer;
 }
+
+.photoOverlay:hover {
+    opacity: 1;
+}
+ .photoOverlay img {
+     transition: .5s;
+     transform-origin: 50% 50%;
+ }
