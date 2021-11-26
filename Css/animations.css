@@ -102,7 +102,7 @@ photo overlay transitions
 .photoOverlay:hover {
     opacity: 1;
 }
- .photoOverlay img {
+ .photo img {
      transition: .5s;
      transform-origin: 50% 50%;
  }
