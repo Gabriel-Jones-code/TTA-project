@@ -81,3 +81,8 @@ Gallery
     align-items: center;
     background: rgba(0, 0, 0, .5);
 }
+
+.whiteHead {
+    color: #C9BDAA;
+    margin-top: 5%;
+}
